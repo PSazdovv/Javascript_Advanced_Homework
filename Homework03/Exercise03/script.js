@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function () {
   const apiUrl = "https://dog.ceo/api/breed/hound/images";
-  const imageContainer = document.getElementById("dog-images");
+  const imageContainer = document.getElementById("dogImages");
 
   fetch(apiUrl)
     .then((response) => response.json())
